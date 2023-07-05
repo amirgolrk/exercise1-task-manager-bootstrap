@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercise 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid w-50">
+      <div class="card mx-auto my-auto w-75 rounded-5">
+        <div class="card-header">
+          <ul class="nav justify-content-center nav-fill">
+            <li class="nav-item navbar-items">
+              <a class="nav-link" href="#">messages</a>
+            </li>
+            <li class="nav-item navbar-items">
+              <a class="nav-link active" href="#">today's tasks</a>
+            </li>
+            <li class="nav-item navbar-items">
+              <a class="nav-link" href="#">last activity</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body rounded-5">
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 class="card-title">Today's Task</h3>
+              <p class="lead">wednesday , 11 may</p>
+            </div>
+            <div class="col-sm-4">
+              <button class="btn addbtn mt-3">+ New Task</button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-3">
+            <ul class="list-group list-group-horizontal test-center secondnav">
+              <li class="list-group-item">
+                <a href="#"
+                  >All
+                  <span class="badge bg-primary rounded-pill">35</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#"
+                  >Opened
+                  <span class="badge bg-secondary rounded-pill">14</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#"
+                  >Closed
+                  <span class="badge bg-secondary rounded-pill">19</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#"
+                  >Archived
+                  <span class="badge bg-secondary rounded-pill">2</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="card rounded-5 shadow-sm mt-4">
+            <div class="card body rounded-4">
+              <div class="row mt-2 ms-2">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <s class="card-title tasktitle">Client Review & Feedback</s>
+                    <p class="lead tasklead">Crypto Wallet Redesign</p>
+                  </div>
+                  <div class="float-end pe-4 pt-3">
+                    <div class="cntr">
+                      <input
+                        checked=""
+                        type="checkbox"
+                        id="cbx"
+                        class="hidden-xs-up"
+                      />
+                      <label for="cbx" class="cbx"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-sm-9 ps-5">
+                  <p class="lead taskdate">Today 10:00 pm - 11:45 pm</p>
+                </div>
+                <div class="col-sm-3">
+                  <img
+                    src="Screenshot 2023-07-05 142051.png"
+                    class="float-end me-4 pb-2"
+                    width="57px"
+                    height="40px"
+                    alt="people"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-5 shadow-sm mt-4">
+            <div class="card body rounded-4">
+              <div class="row mt-2 ms-2">
+                <div class="clearfix">
+                  <div class="float-start">
+                    <s class="card-title tasktitle">create Wireframe</s>
+                    <p class="lead tasklead">Crypto Wallet Redesign</p>
+                  </div>
+                  <div class="float-end pe-4 pt-3">
+                    <div class="cntr">
+                      <input
+                        checked=""
+                        type="checkbox"
+                        id="cbx"
+                        class="hidden-xs-up"
+                      />
+                      <label for="cbx" class="cbx"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-sm-9 ps-5">
+                  <p class="lead taskdate">Today 09:15 pm - 10:00 pm</p>
+                </div>
+                <div class="col-sm-3">
+                  <img
+                    src="Screenshot 2023-07-05 154910.png"
+                    class="float-end me-4 pb-2"
+                    width="110px"
+                    height="40px"
+                    alt="people"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
